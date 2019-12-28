@@ -1,0 +1,11 @@
+
+INPUT(G1gat)
+INPUT(keyinput0)
+
+
+OUTPUT(G6gat)
+
+G4gat = and(G6gat, G1gat)
+G5gat = mux(G4gat, G1gat, keyinput0)
+G3gat = not(G5gat)
+G6gat = not(G3gat)

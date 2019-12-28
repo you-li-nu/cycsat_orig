@@ -1,0 +1,5 @@
+INPUT(G1gat)
+INPUT(G2gat)
+OUTPUT(G4gat)
+G3gat = and(G4gat, G2gat)
+G4gat = or(G1gat, G3gat)

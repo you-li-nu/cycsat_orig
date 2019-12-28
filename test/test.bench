@@ -1,0 +1,4 @@
+INPUT(G1gat)
+OUTPUT(G6gat)
+G6gat = buf(G1gat)
+
