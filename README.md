@@ -21,7 +21,7 @@ sudo apt-get install g++-5
 
 ```Bash
 sudo apt-get install flex-old bison
-sudo apr-get install flex  
+sudo apt-get install flex  
 sudo apt-get install libboost-all-dev
 ```
 
